@@ -65,28 +65,32 @@
     font-size: 16px;
 }
 
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
 /*  my plan section */
-
-.plan-container {
-    display: flex;
-    text-align: center;
-    width: 1141px;
-    height: 299.96px;
-    left: 230px;
-    top: 1792.3px;
-
+.my-plans {
+    margin: 0 230px 130px;
 }
 
 .section-title {
     text-align: center;
-    margin: 0 0 49.7px;
-
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
 }
 
-.my-plan {
+.plan-container {
 
-    border-radius: 5px;
-    padding: 30px
+    text-align: center;
+    display: flex;
+    gap: 86px;
+    align-items: center;
 }
 
 .plan-title {
@@ -105,35 +109,40 @@
     display: center;
 }
 
+/* call now section */
 .call-now {
-    background-image: url('/images/gradient2.png');
-    width: 1140px;
-    height: 300px;
+    background-image: url('/images/watch.png');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 230px 130px;
+    border-radius: 8px;
 }
 
 .content {
-    text-align: left;
-    width: 459px;
-    height: 182px;
+    padding: 60px 0 60px 60px;
+}
 
+.overlay {
+    background-image: linear-gradient(to right, #F15B22, rgba(0, 0, 0, .5));
+    border-radius: 8px;
 }
 
 .caller-title {
     font-weight: 700;
     font-size: 40px;
-    margin: 59px 0 147px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
 }
 
 .btn-primary2 {
-    color: rgb(255, 255, 255);
-    font-weight: 700;
-    padding: 13px 25px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 24px;
     border-radius: 8px;
-    background-color: #FD6E0A;
-    width: 160px;
-    height: 64px;
-    margin: 24px 0 59px;
+    background-color: #fff;
+    border: none;
 }
 
 /*contact styles*/
@@ -149,11 +158,13 @@
 }
 
 .contact-title {
-    text-align: left;
     font-weight: 700;
     font-size: 45px;
-    font-weight: 600;
-    font-size: 25px;
+}
+
+.contact-discription {
+    font-weight: 400;
+    font-size: 16px;
 }
 
 input {
@@ -177,10 +188,4 @@ input {
     width: 325px;
     height: 204px;
 
-}
-
-.contact-discription {
-    font-weight: 400;
-    font-size: 16px;
-    margin: 16px 0 24px;
 }
