@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/*header and  styles*/
+.banner-content{
+    text-align: right;
+
+}
+
+.header-banner{
+    background-image: url('/images/banner/banner2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:150px 150px ;
+    background-position: bottom right,left top;    
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+}  
+
+.banner-discription{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 24px 0 32px;
+}
+.btn-primary{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 8px;
+    background-color: #FD6E0A;
+}
+
+.attention{
+
+    width: 1072px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+    padding: 130px 150px;
+    text-align: center;
+    background-image: url('/images/person.png');
+    background-repeat: no-repeat;
+    text-align: right, center;
+}
+.attention-title{
+    font-weight: 700;
+    font-size: 40px;
+    color:  #151414;;
+}
+.section-description{
+    font-size: 18px;
+    color: #444343;
+    margin: 24px 0 16px;
+}
+.about-info{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+/*  my plan section */
+ 
+.plan-container{
+    display: flex;
+    text-align: center;
+    width: 1141px;
+    height: 299.96px;
+    left: 230px;
+    top: 1792.3px;
+    
+}
+.section-title{
+ text-align: center;
+ margin: 0 0 49.7px ;
+
+}
+.my-plan{
+
+    border-radius: 5px;
+    padding:30px
+
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+.plant-start{
+    display: center;
+}
+.call-now{
+    background-image: url('/images/gradient2.png');   
+    width: 1140px;
+    height: 300px; 
+    background-repeat: no-repeat;
+}
+.content{
+    text-align: left;
+    width: 459px;
+    height: 182px;
+   
+}
+.caller-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 59px 0 147px;
+}
+.btn-primary2{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 13px 25px;
+    border-radius: 8px;
+    background-color: #FD6E0A;
+    width: 160px;
+    height: 64px;
+    margin: 24px 0 59px;
+}
+
+/*contact styles*/
+.contact{
+    width: 1600px;
+    height: 577px;
+    display: flex;
+    gap: 100px;
+    background-color:#151414;
+    padding: 130px 200px;
+    color: white;
+
+}
+.contact-title{
+    text-align: left;
+    font-weight: 700;
+font-size: 45px;
+font-weight: 600;
+font-size: 25px;
+}
+input{
+    padding: 18px 0 18px 30px;
+    box-sizing: border-box;
+}
+.icon{
+    text-decoration: none;
+    margin: 32px 0 130px;
+    
+}
+.contact1{
+    width: 485px;
+height: 317px;
+
+}
+.contact2{
+    width: 325px;
+    height: 204px;
+    
+}
+.contact-discription{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 16px 0 24px; 
+}
