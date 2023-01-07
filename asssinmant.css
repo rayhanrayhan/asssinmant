@@ -165,27 +165,31 @@ ul {
 .contact-discription {
     font-weight: 400;
     font-size: 16px;
-}
-
-input {
-    padding: 18px 0 18px 30px;
-    box-sizing: border-box;
+    padding: 16px 0 24px;
+    line-height: 26px;
 }
 
 .icon {
-    text-decoration: none;
-    margin: 32px 0 130px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 16px;
+}
+
+.contact1 span {
+    display: block;
+    margin-bottom: 16px;
 
 }
 
-.contact1 {
-    width: 485px;
-    height: 317px;
+.contact2 {}
 
-}
-
-.contact2 {
+input {
+    padding: 20px 0 20px 20px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 1px solid #fff;
+    display: block;
     width: 325px;
-    height: 204px;
-
+    margin: 32px 0 16px;
 }
